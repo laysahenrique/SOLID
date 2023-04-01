@@ -1,0 +1,16 @@
+{
+    "name": "laysa/app_carrinho_compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laysa",
+            "email": "laysafontoura@gmail.com"
+        }
+    ],
+    "require": {}
+}
