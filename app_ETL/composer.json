@@ -1,0 +1,15 @@
+{
+    "name": "laysa/app_etl",
+    "authors": [
+        {
+            "name": "Laysa Fontoura",
+            "email": "laysafontoura@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
+}
