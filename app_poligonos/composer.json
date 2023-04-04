@@ -1,0 +1,15 @@
+{
+    "name": "laysa/app_poligonos",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laysa Fontoura",
+            "email": "laysafontoura@gmail.com"
+        }
+    ],
+    "require": {}
+}
