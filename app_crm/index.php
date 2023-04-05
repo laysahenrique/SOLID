@@ -14,6 +14,6 @@ $leadModel = new LeadModel();
 print_r($leadModel);
 echo '<br/>';
 
-$usuarioModel = new ContratoModel();
+$usuarioModel = new UsuarioModel();
 print_r($usuarioModel);
 echo '<br/>';

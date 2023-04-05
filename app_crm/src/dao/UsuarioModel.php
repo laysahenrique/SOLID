@@ -3,6 +3,6 @@
 namespace src\dao;
 use src\BD;
 
-class UsuarioModel extends BD{
+class UsuarioModel extends BD {
 
 }
