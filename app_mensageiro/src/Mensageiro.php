@@ -8,18 +8,19 @@ class Mensageiro{
 
   private $canal;
 
-  public function getCanal(): String{
+  public function __construct(IMensagemToken $canal){
+    $this->setCanal($canal);
+  }
+
+  public function getCanal(): IMensagemToken{
     return $this->canal;
   }
 
-  public function setCanal(String $canal): Void {
+  public function setCanal(IMensagemToken $canal): Void {
     $this->canal = $canal;
   }
 
   public function enviarToken(): Void {
-    $classe = 'src\\' . ucfirst($this->getCanal());
-
-    $obj = new $classe;
-    $obj->enviar();
+    $this->getCanal()->Enviar();
   }
 }

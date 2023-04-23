@@ -2,7 +2,6 @@
 
 namespace src;
 
-use interface\IMensagemToken;
 
 class Sms implements IMensagemToken{
   public function enviar(): Void {
